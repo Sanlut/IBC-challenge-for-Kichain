@@ -213,3 +213,4 @@ umeed tx ibc-transfer transfer transfer channel-N <ki_wallet_address> 100uumee \
 --chain-id umee-betanet-1
 ```
 
+https://explorer-umee.nodes.guru/transactions/4D0D7AB3B8089AC2AD6A0FFBBB3BB2B72638EA87457F2447904FBFDEEFC879F9
