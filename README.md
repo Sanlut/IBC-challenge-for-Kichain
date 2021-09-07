@@ -146,14 +146,14 @@ The output should be like this (there should be check marks everywhere):\
 * rly transact transfer [src-chain-id] [dst-chain-id] [amount] [dst-addr] [flags]
 
 ###### 17.1. Trying a transfer from the Kichane network to the Umee network:
-* rly tx transfer kichain-t-4 umee-betanet-1 10utki umee1y50nrt5jdz6nec2h56wflsmelam6ev0dggnswd --path transfer
+* rly tx transfer kichain-t-4 umee-betanet-1 10utki umee1y50nrt5jdz6nec2h56wflsmelam6ev0dggnswd
 
 > I[2021-09-07|10:15:51.413] ✔ [kichain-t-4]@{228815} - msg(0:transfer) hash(CCAEC22E665A8F2C72091DEDB0A17C0056EE4645792E49C6A0E638293911AA3F)
 
 https://api-challenge.blockchain.ki/txs/CCAEC22E665A8F2C72091DEDB0A17C0056EE4645792E49C6A0E638293911AA3F
 
 ###### 17.2. Trying a transfer from the Umee network to the Kichane network:
-* rly tx transfer umee-betanet-1 kichain-t-4 100uumee tki1wwswak4j34zshnpcg004svg2hkmld5j6mekczv --path transfer
+* rly tx transfer umee-betanet-1 kichain-t-4 100uumee tki1wwswak4j34zshnpcg004svg2hkmld5j6mekczv
 
 > I[2021-09-07|12:26:39.238] ✔ [umee-betanet-1]@{210073} - msg(0:transfer) hash(31D952E68A4BF5B1C1B5FE9B6FAF602921CBE17D3B24505687B943135D8734B6)
 
