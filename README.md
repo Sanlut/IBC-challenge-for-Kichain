@@ -107,8 +107,8 @@ and erase in the paths: section the values in the following lines:\
 ### 15. Run the command:
 * rly tx link transfer --debug
 
-You may have to repeat steps 13-14 several times until after this command we see:
-> ★ Channel created:
+You may have to repeat steps 13-14 several times until after this command we will see:
+> ★ Channel created: [kichain-t-4]chan{channel-61}port{transfer} -> [umee-betanet-1]chan{channel-0}port{transfer}
 
 ### 16. Check the created channel:
 * rly paths list -d
