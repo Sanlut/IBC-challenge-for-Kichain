@@ -5,7 +5,7 @@ The task facing us is to build an cross-chain bridge and make cross-network tran
 To do this we need to install and configure the Cosmos IBC relayer, and we need a second network that supports IBC transactions. For this, I used the recently launched Umee test network.
 ___
 
-Before I started installing and configuring the relayer, I made changes in config.toml on my nodes in both networks. In the rpc section laddr = "tcp://127.0.0.1:26657" changed to laddr = "tcp://0.0.0.0:26657".
+Before I started installing and configuring the relayer, I made changes in config.toml on my nodes in both networks. In the rpc section ```laddr = "tcp://127.0.0.1:26657"``` changed to ```laddr = "tcp://0.0.0.0:26657"```.
 
 The relayer was installed on the Kichane network node.
 ___
