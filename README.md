@@ -75,7 +75,7 @@ or restore:
 * rly chains edit umee-betanet-1 key <umee_wallet_name>
 
 ### 9. Now both of these accounts need to be topped up with test tokens to be able to make cross-network transfers:
-Since I maintain validator nodes in both test networks, I had the opportunity to top up these accounts with test tokens using kid and umeed Since I maintain validator nodes in both test networks, I had the opportunity to top up these accounts with test tokens using kid and umeed instead.
+Since I maintain validator nodes in both test networks, I had the opportunity to top up these accounts with test tokens using kid and umeed instead.
 
 ### 10. Ensure both relayer accounts are funded by querying each:
 * rly q balance kichain-t-4
