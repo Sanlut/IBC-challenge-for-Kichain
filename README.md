@@ -104,8 +104,8 @@ and erase in the paths: section the values in the following lines:\
 * rly light init kichain-t-4 -f
 * rly light init umee-betanet-1 -f
 
-### 15. Run command again:
-* rly paths list -d
+### 15. Run the command:
+* rly tx link transfer --debug
 
 You may have to repeat steps 13-14 several times until after this command we see:
 > ★ Channel created:
