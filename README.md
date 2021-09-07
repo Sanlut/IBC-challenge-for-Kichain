@@ -199,7 +199,7 @@ EOF
 
 ```
 kid tx ibc-transfer transfer transfer channel-N <umee_wallet_address> 10utki \
----from <ki_wallet_name> \
+--from <ki_wallet_name> \
 --fees=200utki \
 --gas=auto \
 --chain-id kichain-t-4 \
