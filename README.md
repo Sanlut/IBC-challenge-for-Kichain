@@ -70,7 +70,7 @@ or restore:
 * rly keys restore kichain-t-4 <ki_wallet_name> "ki_mnemonic"
 * rly keys restore umee-betanet-1 <umee_wallet_name> "umee_mnemonic"
 
-### 8. Add the keys to the relay's config:
+### 8. Add the keys to the relayer's config:
 * rly chains edit kichain-t-4 key <ki_wallet_name>
 * rly chains edit umee-betanet-1 key <umee_wallet_name>
 
