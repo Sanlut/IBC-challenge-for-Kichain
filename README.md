@@ -196,7 +196,20 @@ EOF
 ### 19. Trying transfers using kid and umeed:
 
 ```
-kid tx ibc-transfer transfer transfer channel-N umee_WALLET_address 10utki ---from name_of_wallet --fees=200utki --gas=auto --chain-id kichain-t-4 --home $HOME/kichain/kid
+kid tx ibc-transfer transfer transfer channel-N umee_WALLET_address 10utki \
+---from name_of_wallet \
+--fees=200utki \
+--gas=auto \
+--chain-id kichain-t-4 \
+--home $HOME/kichain/kid
 ```
 https://api-challenge.blockchain.ki/txs/BE764F14A8FC0290520E250C706E0C8F445F1B57EC0F7B45ACF1187C039CD809
+
+```
+umeed tx ibc-transfer transfer transfer channel-N ki_WALLET_address 100uumee \
+--from name_of_wallet \
+--fees=200uumee \
+--gas=auto \
+--chain-id umee-betanet-1
+```
 
