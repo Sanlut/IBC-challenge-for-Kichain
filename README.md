@@ -192,3 +192,11 @@ EOF
 
 #To check the logs of the relayer, use:
 * journalctl -u rlyd -f
+
+### 19. Trying transfers using kid and umeed:
+
+```
+kid tx ibc-transfer transfer transfer channel-N umee_WALLET_address 10utki ---from name_of_wallet --fees=200utki --gas=auto --chain-id kichain-t-4 --home $HOME/kichain/kid
+```
+https://api-challenge.blockchain.ki/txs/BE764F14A8FC0290520E250C706E0C8F445F1B57EC0F7B45ACF1187C039CD809
+
