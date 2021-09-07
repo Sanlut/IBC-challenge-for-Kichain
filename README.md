@@ -1,4 +1,4 @@
-# IBC-challenge-for-Kichain
+# IBC challenge for Kichain
 ## Cross-network transactions
 
 The task facing us is to build an cross-chain bridge and make cross-network transactions.
