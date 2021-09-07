@@ -107,7 +107,7 @@ and erase in the paths: section the values in the following lines:\
 ### 15. Run command again:
 * rly paths list -d
 
-You may have to repeat steps 13-14 several times until after this command we see:\
+You may have to repeat steps 13-14 several times until after this command we see:
 > ★ Channel created:
 
 ### 16. Check the created channel:
