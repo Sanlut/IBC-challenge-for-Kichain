@@ -207,6 +207,8 @@ kid tx ibc-transfer transfer transfer channel-N <umee_wallet_address> 10utki \
 ```
 https://api-challenge.blockchain.ki/txs/BE764F14A8FC0290520E250C706E0C8F445F1B57EC0F7B45ACF1187C039CD809
 
+And now let's try it on the Umee node:
+
 ```
 umeed tx ibc-transfer transfer transfer channel-N <ki_wallet_address> 100uumee \
 --from <umee_wallet_name> \
