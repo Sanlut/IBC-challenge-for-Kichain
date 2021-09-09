@@ -181,7 +181,8 @@ After=network-online.target, kichaind.service
 [Service] 
 User=$USER 
 ExecStart=$(which rly) start transfer 
-Restart=always RestartSec=3 
+Restart=always 
+RestartSec=3 
 LimitNOFILE=65535 
 [Install] 
 WantedBy=multi-user.target 
