@@ -124,7 +124,7 @@ The output should be like this (there should be check marks everywhere):\
 1: umee-betanet-1       -> key(✔) bal(✔) light(✔) path(✔)
 
   ###### 16.2. Check Path:
-* rly paths show transfer\
+* rly paths show transfer
 > Path "transfer" strategy(naive):\
   SRC(kichain-t-4)\
     ClientID:     07-tendermint-13\
